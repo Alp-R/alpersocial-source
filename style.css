@@ -1,0 +1,102 @@
+/* CSS files add styling rules to your content */
+
+.unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  -webkit-user-drag: none;
+  user-drag: none;
+}
+
+body {
+  font-family: "Google Sans", Roboto, Arial, Helvetica, sans-serif;
+}
+body.hhh {
+  background-color: orange;
+  color: white;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+  text-align: center;
+}
+
+size.fifteen {
+  font-size: 15px;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom { 
+    height: 25px;
+    position: fixed; 
+    bottom: 5px;
+    font-size: 20px;
+}
+
+/* unvisited link */
+a.main:link {
+  color: #03c2fc;
+  text-decoration: none;
+}
+
+/* visited link */
+a.main:visited {
+  color: #03c2fc;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a.main:hover {
+  color: #007fa6;
+  text-decoration: none;
+}
+
+/* selected link */
+a.main:active {
+  color: #007fa6;
+  text-decoration: none;
+}
+
+.get-dev {
+  transition: 1s;
+  color: #fff;
+  text-decoration: none;
+}
+.get-dev:hover {
+  color: #5AAD46;
+  transition: 1s;
+}
+
+.lolxd {
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  font-size: 40px;
+  color: red;
+  text-decoration: none;
+}
+.lolxd2 {
+  position: fixed;
+  top: 5px;
+  left: 5px;
+}
+.domain {
+  font-weight: bold;
+  color: #000;
+  text-decoration: underline;
+}
+.domain:hover {
+  text-decoration: none;
+}
+.domain:visited {
+  color: #000;
+}
